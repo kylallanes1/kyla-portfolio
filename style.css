@@ -500,6 +500,23 @@ footer {
     color: var(--white);
 }
 
+  .cv-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--secondary-blue);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #2980b9;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
